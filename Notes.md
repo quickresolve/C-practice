@@ -5,7 +5,7 @@ Learning C the hard way.
 
 ## #include <stdio.h>
 
-# is known as compiler directive. Headerfile are the files with extension .h and they contain inbuilt functions such as printf, strlen, abs, etc. stdio.h stands for standard input output and it contains functions such as scanf, printf, gets, puts, etc.
+The pound symbol (#) is known as compiler directive. Headerfile are the files with extension .h and they contain inbuilt functions such as printf, strlen, abs, etc. stdio.h stands for standard input output and it contains functions such as scanf, printf, gets, puts, etc.
 
 
 ##Escape Sequences & Format Specifiers
