@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
       name[0], name[1],
       name[2], name[3]);
 
-  printf("name: %s\n", name);
+  printf("name: %s\n", name); //yields one a character
 
   //setup the numbers
   numbers[0] = 1;
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   name[0] = 'Z';
   name[1] = 'e';
   name[2] = 'd';
-  name[3] = '\0';
+  name[3] = '\0'; //must end with \0 as endpoint
 
   // then print them out initialized
   printf("numbers: %d %d %d %d\n",
