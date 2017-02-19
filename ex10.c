@@ -53,3 +53,13 @@ int main(int argc, char *argv[])
 
   return 0;
 }
+
+
+// The switch statement is really a jump table. Instead of random boolean expressions, you can only put expressions that result in integers. These integers are used to calculate jumps from the top of the switch to the part that matches that value.
+
+/* How it works:
+
+1) The compiler marks the place in the program where the switch statement starts. Let's call this location Y.
+2) It then evaluates the expression is switch(letter) to come up with a number. In this case, the number will be raw ASCII code of the letter in argv[1].
+
+*/
